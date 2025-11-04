@@ -85,7 +85,7 @@ const ModernNavbar = () => {
         <div className="flex items-center justify-between px-6 py-2 text-sm">
          
           <div className="flex items-center gap-6">
-            {["+91 9012139173", "+91 7060072378","+91 9871032090"].map((phone, idx) => (
+            {["+91 9871032090"].map((phone, idx) => (
               <p key={idx} className="flex items-center gap-2">
                 <FaPhoneAlt style={{ color: colors.brightRed }} />
                 <a href={`tel:${phone}`} style={{ color: colors.whitePure }}>

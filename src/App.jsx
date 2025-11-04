@@ -12,10 +12,12 @@ const TermsAndConditions = lazy(() => import('./pages/TermsAndCondition'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Service = lazy(() => import('./pages/Service'));
 const ServiceDetail = lazy(() => import('./pages/ServiceDetail'));
+import FloatingButtons from "./components/FloatingButtons"
 
 const App = () => {
   return (
     <BrowserRouter>
+    <FloatingButtons/>
       <Navbar />
       {/* ✅ Suspense shows fallback while components load */}
       <Suspense

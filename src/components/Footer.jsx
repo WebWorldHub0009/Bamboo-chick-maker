@@ -202,7 +202,7 @@ export default function Footer() {
           Address: Plot No. GH4 Ground Floor Society Expressway, Nearby Royal Park, Sector 137, Noida, Uttar Pradesh 201304
           </address>
 
-          {["+91 7060072378", "+91 9012139173","+91 98710 32090"].map((num, i) => (
+          {["+91 9012139173",].map((num, i) => (
             <p key={i} className="text-sm mb-2 flex items-center gap-2">
               <FaPhoneAlt style={{ color: colors.leafGreen }} />
               <a

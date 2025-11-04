@@ -93,10 +93,6 @@ const Contact = () => {
             <div className="flex items-start gap-3">
               <FaPhoneAlt size={22} style={{ color: colors.strawGold }} />
               <p>
-                +91 90121 39173
-                <br />
-                +91 70600 72378
-                <br />
                 +91 98710 32090
               </p>
             </div>
