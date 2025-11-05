@@ -248,7 +248,7 @@ const ModernNavbar = () => {
               <div className="mt-auto pt-6 border-t">
                  {/* 🔹 Contact Info inside mobile menu */}
               <div className="space-y-2 mb-4 text-sm">
-                {["+91-7060072378", "+91-9012139173","+91-9871032090"].map((phone, idx) => (
+                {["+91-9871032090"].map((phone, idx) => (
                   <p key={idx} className="flex items-center gap-2">
                     <FaPhoneAlt className="text-[#E8452D]" />{" "}
                     <a href={`tel:${phone}`} className="text-black">
